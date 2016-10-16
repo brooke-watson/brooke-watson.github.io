@@ -1,19 +1,19 @@
 # Site settings
 name: Brooke Watson
-description: "Nifty little description"
-url: "Infectious Disease Epidemiologist" 
+description: "Infectious Disease Epidemiologist"
+url: "http://brooklyneveryone.github.io/" 
 
 
 # Delete the lines you don't need
 # about 5 elements are recomended
 github_username:  brooklyneveryone 
-facebook_username: your_facebook_username_goes_here 
+# facebook_username: your_facebook_username_goes_here 
 twitter_username: brookLYNevery1 
 linkedin_username: brookewatson1
 instagram_username:  brooklyneveryone 
 medium_username:  brooklyneveryone 
-# blog_url: "/blog"
-email: "/newsletter"
+blog_url: "/newsletter"
+# email: "/newsletter"
 
 
 avatar: yes
