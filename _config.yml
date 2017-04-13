@@ -24,8 +24,8 @@ avatar_img_path: "imgs/avatar.png"
 # avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
 
 
-front_img: no
-front_img_path: # "imgs/gili3.png"
+front_img: yes
+front_img_path:  "http://68.media.tumblr.com/67dfb4e208adc62a3418734b1650d7f4/tumblr_n3r2y34Xyr1tpsz36o2_1280.jpg"
 #front_img_path: "https://external.url/image.jpg"
 
 
