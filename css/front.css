@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-/*    background-color: rgba(0, 0, 0, 0.9);*/
+    background-color: none;/*rgba(0, 0, 0, 0.9);*/
     position: absolute; 
     top: 0;
     bottom: 0;
@@ -40,7 +40,7 @@ h3 {
 .content {
     padding-top: 100px;
     padding-bottom: 40px;
-/*    background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: none;/* rgba(0, 0, 0, 0.5);*/
     text-align: center;
 }
 ul {
@@ -64,7 +64,7 @@ li:hover {
     -moz-transition: 500ms;
     transition: 500ms;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: none;/* rgba(0, 0, 0, 0.5);*/
 }
 a {
     color: white;
@@ -118,7 +118,7 @@ a:hover {
     font-family: Arial;
     margin-left: 40px;
 }
-.content {
+/*.content {
     padding-top: 60px;
-}
+}*/
 }
