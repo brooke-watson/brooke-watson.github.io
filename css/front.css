@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-family: 'Avenir',Helvetica,Arial,sans-serif;
     background-color: none;/*rgba(0, 0, 0, 0.9);*/
     position: absolute; 
     top: 0;
@@ -115,7 +115,7 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
     margin-left: 40px;
 }
 /*.content {
