@@ -68,12 +68,8 @@ li:hover {
 }
 a {
     color: white;
-    text-decoration: underline;
-}
-a:hover {
-    color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
     text-decoration: none;
-    
 }
 .description {
     display: none;
