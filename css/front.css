@@ -29,7 +29,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 4em;
-    font-family: 'Open Sans';
+    font-family: 'Avenir';
     margin: -10px 0;
 }
 h3 {
@@ -51,7 +51,7 @@ li {
     border-radius: 100%;
     border: 2px solid white;
     color: white;
-    margin: 8px;
+    text-decoration: underline;
     display: inline-block;
     list-style: none;
     width: 65px;
