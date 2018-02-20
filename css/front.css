@@ -69,7 +69,7 @@ li:hover {
 a {
     color: white;
     padding: 15px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .description {
     display: none;
@@ -103,6 +103,7 @@ a {
     padding: 15px;
     padding-left: 30px;
     width: 70%;
+    text-decoration: none;
 }
 a:hover {
     -webkit-transition: 500ms;
