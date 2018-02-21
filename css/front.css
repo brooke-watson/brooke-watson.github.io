@@ -56,6 +56,7 @@ li {
     width: 65px;
     height: 65px;
 }
+
 li:hover {
     color: white;
     text-decoration: none;
@@ -65,10 +66,10 @@ li:hover {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 a {
     color: white;
     padding: 15px;
-    text-decoration: underline;
 }
 .description {
     display: none;
