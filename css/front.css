@@ -14,7 +14,7 @@ body {
     min-width: 1024px;
     width: 100%;
     height: auto;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
 }
@@ -40,24 +40,23 @@ h3 {
 .content {
     padding-top: 100px;
     padding-bottom: 40px;
-    background-color: none;/* rgba(0, 0, 0, 0.5);*/
+    background-color: none; /*rgba(0, 0, 0, 0.5);*/
     text-align: center;
 }
 ul {
     list-style: none;
-    padding: 0; 
+    padding: 0;
 }
 li {
     border-radius: 100%;
     border: 2px solid white;
     color: white;
+    margin: 8px;
     display: inline-block;
     list-style: none;
     width: 65px;
     height: 65px;
-    text-decoration: none;
 }
-
 li:hover {
     color: white;
     text-decoration: none;
@@ -67,7 +66,6 @@ li:hover {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 a {
     color: white;
     padding: 15px;
@@ -92,12 +90,10 @@ li {
     text-align: center;
     height: auto;
     width: auto;
-    text-decoration: none;
 }
 li:hover {
     background-color: none;
     transition: none;
-    text-decoration: none;
 }
 a {
     text-align: justify;
@@ -107,7 +103,6 @@ a {
     padding: 15px;
     padding-left: 30px;
     width: 70%;
-    text-decoration: none;
 }
 a:hover {
     -webkit-transition: 500ms;
@@ -120,10 +115,10 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Arial;
     margin-left: 40px;
 }
-/*.content {
+.content {
     padding-top: 60px;
-}*/
+}
 }
