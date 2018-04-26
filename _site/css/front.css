@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway',Helvetica,Arial,sans-serif;
+    font-family: 'Avenir',Helvetica,Arial,sans-serif;
     background-color: none;/*rgba(0, 0, 0, 0.9);*/
     position: absolute; 
     top: 0;
@@ -17,26 +17,25 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    opacity: 0.5;
 }
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 1px solid white;
+    border: 5px solid white;
     margin-bottom: 40px;
 }
 h1 {
-    color: black;
-    font-size: 70px;
-    font-weight: 400;
-    font-family: 'Raleway';
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    font-family: 'Avenir';
     margin: -10px 0;
 }
 h3 {
-    color: black;
-    font-size: 25 px;
-    font-weight: 100;
+    color: white;
     padding-bottom: 20px;
+    font-weight: thin;
 }
 .content {
     padding-top: 100px;
@@ -50,13 +49,13 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 0px solid white;
-    color: black;
-    margin: 12px;
+    border: 2px solid white;
+    color: white;
+    margin: 8px;
     display: inline-block;
     list-style: none;
-    width: 30px;
-    height: 30px;
+    width: 65px;
+    height: 65px;
 }
 li:hover {
     color: white;
@@ -64,31 +63,30 @@ li:hover {
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
-    text-decoration: none; 
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 a {
-    color: black;
-    font-size: 30px;
+    color: white;
+    padding: 15px;
     text-decoration: none;
 }
-a:hover {
-    color: white;
-}
-
 .description {
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 ul {
     text-align: center;
 }
 li {
     border-radius: 0%;
     border: none;
-    color: #262525; 
+    color: white;
+    margin: 8px;
     display: block;
-    list-style: none; 
+    list-style: none;
+    margin: 10px 0px;
     text-align: center;
     height: auto;
     width: auto;
@@ -98,22 +96,26 @@ li:hover {
     transition: none;
 }
 a {
-    text-align: justify;  
-    color: black;
-    padding: 5px; 
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
     width: 70%;
 }
 a:hover {
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-decoration: none;
 }
 .description {
     display: inline-block;
-    color: black;
-    font-family: 'Raleway', Arial;
+    color: white;
+    font-family: 'Avenir', Arial;
     margin-left: 40px;
 }
 .content {
